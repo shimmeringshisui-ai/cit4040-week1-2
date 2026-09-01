@@ -53,7 +53,6 @@ public class Calculator {
                     letter == 'i' ||
                     letter == 'o' ||
                     letter == 'u') {
-
                 vowelCount++;
             }
         }
@@ -62,7 +61,14 @@ public class Calculator {
 
 
         String missingProduct = null;
-        System.out.println(missingProduct.length());
+
+
+
+        String role = "admin";
+
+        if ("admin".equals(role)) {
+            System.out.println("Access granted");
+        }
     }
 
 
